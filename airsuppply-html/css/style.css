@@ -44,6 +44,36 @@ Text Domain: airsupply
 14. Predefined classes for users
 
 -------------------------------------------------------------- */
+.social_instagram {
+	background: linear-gradient(45deg, #FEDA75 0%, #ED1D79 100%) !important;
+  }
+  
+  .icon-instagram:before {
+	content: "\f16d"; /* código do ícone do Instagram na fonte FontAwesome */
+	font-family: FontAwesome;
+
+  }
+
+  .social_whatsapp {
+	background-color: green !important;
+	color: #25d366 !important; /* cor do ícone */
+  }
+  
+  .icon-whatsapp:before {
+	content: "\f232"; /* código do ícone do WhatsApp na fonte FontAwesome */
+	font-family: FontAwesome;
+  }
+
+  .social_whatsapp:hover{
+	background-color: #fff !important;
+  }
+
+  .social_instagram:hover{
+	background: #fff !important;
+	color:blue !important;
+  }
+
+
 
 
 
